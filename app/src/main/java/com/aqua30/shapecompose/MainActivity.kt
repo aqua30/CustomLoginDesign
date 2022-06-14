@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ShapeComposeTheme {
                 val density = LocalDensity.current
-                val loginY = density.run { 560.sp.toPx() }
+                val loginY = density.run { 510.dp.toPx() }
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
